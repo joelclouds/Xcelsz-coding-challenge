@@ -1,0 +1,48 @@
+I am working on a job-matching platform. I need to develop a scheduling feature that allows users to schedule meetings directly within the app.
+
+Please help me create the following project files and code:
+
+Front-end:
+
+src/components/:
+MeetingForm.jsx: A React component for the meeting scheduling form.
+MeetingCard.jsx: A React component to display meeting details.
+Calendar.jsx: A React component for displaying the calendar view (optional).
+DatePicker.jsx: A React component for date selection (you can use Material UI).
+TimePicker.jsx: A React component for time selection (you can use Material UI).
+src/App.js: The main application component.
+src/styles/index.css (or use Tailwind CSS directly in your components).
+src/index.js: The entry point for the React application.
+Back-end:
+
+server.js: The main server file for the Express.js application.
+models/:
+meeting.js: A JavaScript object to represent meeting data.
+user.js: A JavaScript object to represent user data.
+routes/:
+meetings.js: Define routes for creating, reading, updating, and deleting meetings.
+utils/:
+database.js: Functions to interact with the in-memory database.
+notifications.js: Functions to simulate sending notifications.
+timezones.js: Functions for handling time zone conversions.
+Testing:
+
+tests/:
+meetingForm.test.js: Unit tests for the MeetingForm component.
+meetingCard.test.js: Unit tests for the MeetingCard component.
+meetingsApi.test.js: Unit tests for the meeting API endpoints.
+timezones.test.js: Unit tests for time zone handling functions.
+Include the following in your response:
+
+Basic implementation of each component and file.
+Example unit tests for each component and API endpoint.
+Basic styling using Tailwind CSS or your preferred method.
+Comments and explanations within the code.
+Instructions on how to run the application locally.
+Remember to:
+
+Use React hooks (useState, useEffect) for state management.
+Handle form submissions and API calls.
+Implement basic error handling and input validation.
+Consider how to handle user authentication (you can simulate this for the challenge).
+I want to use this as a starting point for my project. Please provide a well-structured and commented codebase.
